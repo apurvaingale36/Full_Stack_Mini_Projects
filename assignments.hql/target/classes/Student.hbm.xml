@@ -1,0 +1,18 @@
+
+<hibernate-mapping>
+	<class name="com.hql.assignments.hql.Student" table="student">
+ 
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="native" />
+		</id>
+ 
+		<property name="name" type="string">
+			<column name="name" />
+		</property>
+ 
+		<property name="age" type="int">
+			<column name="age" />
+		</property>
+	</class>
+</hibernate-mapping>

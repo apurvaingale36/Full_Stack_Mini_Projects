@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>1.2</jsp-version>
+<tag>
+<name>Calculator</name>
+<tag-class>com.customtag.Calculator</tag-class>
+<attribute>
+	<name>a</name>
+	<required>true</required>
+</attribute>
+<attribute>
+	<name>b</name>
+	<required>true</required>
+</attribute>
+<attribute>
+	<name>oprator</name>
+	<required>true</required>
+</attribute>
+</tag>
+
+</taglib>
