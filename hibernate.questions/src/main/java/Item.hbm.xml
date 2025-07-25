@@ -1,0 +1,18 @@
+
+<hibernate-mapping>
+	<class name="com.hibernate.examples.hibernate.questions.Item" table="items">
+ 
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="native" />
+		</id>
+ 
+		<property name="name" type="string">
+			<column name="name" />
+		</property>
+ 
+		<property name="price" type="double">
+			<column name="price" />
+		</property>
+	</class>
+</hibernate-mapping>
